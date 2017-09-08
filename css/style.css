@@ -1,0 +1,114 @@
+/* Body */
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	
+	background-image: url('../img/background.jpg');
+	background-size: 100%; background-repeat: no-repeat;
+	background-position: 10% 10%;
+
+	overflow: hidden; 
+	margin: 0; padding: 0;
+
+}
+
+/* Header */
+header {
+
+}
+
+h1 {
+	text-align: center;	margin: 0;
+	text-transform: uppercase;
+
+	background-color: #35424a; color: #f4f4f4;
+	padding: 40px 20px 40px 20px;
+	border-bottom: #e8491d 5px solid;
+}
+
+span.focus {
+	color: #e8491d;
+}
+
+
+/* Navigation bar */
+nav {
+	position: fixed;
+	margin:-45px 510px -45px 510px;
+}
+
+nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #f4f4f4;
+
+	/*background-color: #35424a;*/
+	padding: 10px 10px 10px 10px;
+	text-shadow: 1px 1px .5px #515151;
+/*	border-radius: 2px;
+	border-bottom: #e8491d 5px solid;*/
+
+}
+
+nav ul li a.currentPage {
+	color: #e8491d;
+}
+
+nav ul li a:hover {
+	color: #e8491d
+}
+
+/* Main content */
+section {
+
+	max-width: 80%;
+
+	position: fixed;
+
+	background-color: #f4f4f4;
+	opacity: 0.6;
+
+	padding: 40px 80px 40px 80px;
+	text-align: center;
+
+	margin: 80px 40px 40px 80px;
+	border-radius: 105px 52.5px 105px 52.5px;
+	border: #e8491d 3px solid;
+}
+
+section h2 {
+	/*font-family: bold;*/
+	text-transform: uppercase;
+	color: #35424a;
+
+}
+
+section p {
+	color: #35424a;
+	padding: 0 10% 0 10%;
+
+}
+
+/* Footer */
+footer {
+	text-align: center; margin: 0;
+	background-color: #35424a; color: #ffffff;
+
+	position: fixed;
+	top: 90%; width: 100%;
+
+	border-top: #e8491d 5px solid;
+}
+
+.contact {
+	color: #e8491d;
+	text-decoration: none;
+}
+
+.contact:hover {
+	text-decoration: underline;
+}
+
